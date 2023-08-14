@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Temperature Converter</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="left">
+    <h1 >Temperature Converter</h1>
+    <br>
+        <div class="text">
+            <h2>Enter the value of Temperature you'd like to convert</h2> 
+            <br>
+        </div>
+
+        <div class="input-div" id="abc">
+            <label >Celsius</label><br>
+            <input type="number" id="cel" class="inp" placeholder="Enter the value in Celsius">
+        </div><br>
+        <div class="input-div" id="xyz">
+            <label>Farenheit</label><br>
+            <input type="number"  id="fah" class="inp" placeholder="Enter the value in Farenheit" >
+        </div>
+    </div>
+    <div class="right">
+        <img src="temp.png" alt="">
+    </div>
+
+    <script src="script.js"></script>
+    <script>
+        var typed = new Typed('#element', {
+            strings: ['Temperature Convertor'],
+            typeSpeed: 70,
+        });
+    </script>
+</body>
+</html>
